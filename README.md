@@ -13,6 +13,3 @@ The primary features of the library are:
 --> MVC 4 and MVC 5 Support
 
 --> Callback
-
-
-This project is inspired on https://www.nuget.org/packages/reCAPTCH.MVC/, http://recaptchamvc.apphb.com/
