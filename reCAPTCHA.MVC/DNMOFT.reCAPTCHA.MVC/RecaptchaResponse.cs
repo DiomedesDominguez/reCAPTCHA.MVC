@@ -35,7 +35,10 @@
         {
             var recaptchaResponse = (RecaptchaResponse)obj;
             if (recaptchaResponse == null || recaptchaResponse.IsValid != IsValid)
+            {
                 return false;
+            }
+
             return recaptchaResponse.ErrorCode == ErrorCode;
         }
 

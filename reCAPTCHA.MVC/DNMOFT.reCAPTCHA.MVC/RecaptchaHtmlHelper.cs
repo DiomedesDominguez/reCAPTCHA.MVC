@@ -15,7 +15,9 @@ namespace DNMOFT.reCAPTCHA.MVC
             Callback = callback;
             ExpiredCallback = expiredCallback;
             if (string.IsNullOrEmpty(publicKey))
+            {
                 throw new InvalidOperationException("Public key cannot be null or empty.");
+            }
         }
 
         public string PublicKey { get; private set; }

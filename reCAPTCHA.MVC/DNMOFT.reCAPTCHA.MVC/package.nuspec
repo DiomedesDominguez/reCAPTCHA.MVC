@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <!--*-->
+    <id>DNMOFT.reCAPTCHA.MVC</id>
+    <!--*-->
+    <version>1.0.1</version>
+    <title>DNMOFT.reCAPTCHA.MVC</title>
+    <!--*-->
+    <authors>DNMOFT, Diomedes Dominguez</authors>
+    <owners>DNMOFT, Diomedes Dominguez</owners>
+    <!--*-->
+    <license type="expression">MS-PL</license>
+    <projectUrl>https://github.com/DiomedesDominguez/reCAPTCHA.MVC</projectUrl>
+    <iconUrl>https://developers.google.com/recaptcha/</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <!--*-->
+    <description>ReCAPTCHA MVC lets you embed a CAPTCHA in your web pages in order to protect them against spam and other types of automated abuse.
+
+The primary features of the library are: 
+--&gt; reCAPTCHA API verion 2.0 Support
+
+
+--&gt; The color theme of the widget. (dark, light)
+
+
+--&gt; The type of CAPTCHA to serve. (image, button)
+
+
+--&gt; The language. (hl)
+
+
+--&gt; MVC 4 and MVC 5 Support
+
+
+--&gt; Callback
+
+
+
+This project is inspired on https://www.nuget.org/packages/reCAPTCH.MVC/, http://recaptchamvc.apphb.com/</description>
+    <!--*-->
+    <releaseNotes>--&gt; Removed the Audio type
+
+--&gt; Added the Invisible button type</releaseNotes>
+    <copyright>Copyright ©  2019</copyright>
+    <tags>reCaptcha, MVC, Google, DNMOFT</tags>
+    <dependencies>
+      <!--
+      <dependency id="SampleDependency" version="1.0" />
+-->
+    </dependencies>
+  </metadata>
+</package>
